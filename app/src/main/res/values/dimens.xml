@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="item_categories_text_size">20sp</dimen>
+    <dimen name="item_categories_card_marginVertical">16dp</dimen>
+    <dimen name="item_categories_card_cornerRadius">8dp</dimen>
+    <dimen name="fragment_categories_recycler_marginHorizontal">16dp</dimen>
+    <dimen name="item_categories_image_width">172dp</dimen>
+    <dimen name="item_categories_text_marginStart">24dp</dimen>
+    <dimen name="item_categories_card_height">100dp</dimen>
+
+
+</resources>

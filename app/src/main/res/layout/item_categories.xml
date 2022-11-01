@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="category"
+            type="com.example.e_commercial.model.ItemCategory" />
+    </data>
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/item_categories_card_height"
+            android:layout_marginTop="@dimen/item_categories_card_marginVertical"
+            app:cardCornerRadius="@dimen/item_categories_card_cornerRadius">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/item_categories_image_width"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:src="@color/black"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/item_categories_text_marginStart"
+                android:textSize="@dimen/item_categories_text_size"
+                android:textColor="@color/black"
+                android:text="@{category.categoryName}" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</layout>
