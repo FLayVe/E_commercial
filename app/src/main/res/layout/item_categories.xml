@@ -25,7 +25,7 @@
                 android:layout_width="@dimen/item_categories_image_width"
                 android:layout_height="match_parent"
                 android:layout_gravity="end"
-                android:src="@color/black"/>
+                app:imageUrl="@{category.imageUrl}"/>
 
             <TextView
                 android:id="@+id/name"
