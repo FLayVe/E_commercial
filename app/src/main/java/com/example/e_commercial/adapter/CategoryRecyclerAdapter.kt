@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.e_commercial.adapter.holder.CategoryViewHolder
 import com.example.e_commercial.databinding.ItemCategoriesBinding
 import com.example.e_commercial.model.ItemCategory
-import com.squareup.picasso.Picasso
 
 class CategoryRecyclerAdapter() : RecyclerView.Adapter<CategoryViewHolder>() {
 
